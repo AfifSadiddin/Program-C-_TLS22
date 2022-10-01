@@ -1,0 +1,112 @@
+#include <iostream>
+
+using namespace std;
+
+int main () {
+  int angka;
+  cout << "Rekomendasi Obat\n";
+  cout <<
+    "Kami akan memberikan rekomendasi beberapa obat yang sesuai dengan sakit yang anda alami\n";
+  cout <<
+    ".......................................................................................\n";
+  cout << "\n";
+  cout << "1. Batuk\n";
+  cout << "2. Flu\n";
+  cout << "3. Demam\n";
+  cout << "4. Sakit kepala\n";
+  cout << "5. Diare\n";
+  cout << "6. Sembelit\n";
+  cout << "7. Wasir\n";
+  cout << "8. Gatal-gatal\n";
+  cout << "9. Sakit gigi\n";
+  cout << "10. Maag\n";
+  cout << "Sesuaikan sakit yang anda alami sesuai angka yang tersedia\n";
+  cout << "Angka ke:\n";
+  cin >> angka;
+
+  switch (angka)
+    {
+
+    case 1:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Woods\n";
+      cout << "2. Siladex\n";
+      cout << "3. OBH combi\n";
+      cout << "4. Konidin\n";
+      cout << "5. Vicks formula 44\n";
+      break;
+    case 2:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Ultraflu\n";
+      cout << "2. procold\n";
+      cout << "3. Hufagripp\n";
+      cout << "4. Declogen flu\n";
+      cout << "5. Rhinos SR\n";
+      break;
+    case 3:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Panadol\n";
+      cout << "2. Sanmol\n";
+      cout << "3. Dumin\n";
+      cout << "4. bodrex\n";
+      cout << "5. Paracetamol\n";
+      break;
+    case 4:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Paramex\n";
+      cout << "2. Oskadon\n";
+      cout << "3. Poldan MIG\n";
+      cout << "4. Panadol Extra\n";
+      cout << "5. Bodrex Migra\n";
+      break;
+    case 5:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Diapet\n";
+      cout << "2. Oralit\n";
+      cout << "3. Neo Entrostop\n";
+      cout << "4. Imodium\n";
+      cout << "5. Inamid\n";
+      break;
+    case 6:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Microlax\n";
+      cout << "2. Dulcolax\n";
+      cout << "3. Lactulax\n";
+      cout << "4. Vegeta Herbal\n";
+      cout << "5. Laxadine\n";
+      break;
+    case 7:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Hemoroa\n";
+      cout << "2. Ambeven\n";
+      cout << "3. Ardium\n";
+      cout << "4. Anoral Anliq\n";
+      cout << "5. Faktu Ointment\n";
+    case 8:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Alleron\n";
+      cout << "2. Caladine Cream\n";
+      cout << "3. Claritin\n";
+      cout << "4. Lameson\n";
+      cout << "5. Mesol\n";
+      break;
+    case 9:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Ponstan\n";
+      cout << "2. Ibu profen\n";
+      cout << "3. Dentasol\n";
+      cout << "4. Gumafixa\n";
+      cout << "5. ProSAGI\n";
+    case 10:
+      cout << "Rekomendasi obat untuk anda adalah\n";
+      cout << "1. Polysilane\n";
+      cout << "2. Mylanta\n";
+      cout << "3. Lambucid\n";
+      cout << "4. Polycrol\n";
+      cout << "5. Promag\n";
+    default:
+      cout << "Maaf tidak tersedia\n";
+    }
+  cout <<"Mudah-mudahan cepat sembuh";
+  return 0;
+}
